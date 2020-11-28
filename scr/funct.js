@@ -14,7 +14,7 @@ let interval = null;
 let status = "stopped";
 
 //Stopwatch function (logic to determine when to increment next value, etc.)
-function stopWatch() {
+function Timer() {
   seconds++;
 
   //Logic to determine when to increment next value
@@ -55,7 +55,7 @@ function stopWatch() {
 function start() {
   if (status === "stopped")
     //Sart the stopwatch (by calling the setInterval() function)
-    interval = window.setInterval(stopWatch, 1000);
+    interval = window.setInterval(Timer, 1000);
   document.getElementById("start");
   status = "started";
 }
