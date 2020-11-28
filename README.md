@@ -4,4 +4,4 @@ It contains index.html file which conatins the markup, and other files are linke
 It has css file for styling
 And javascript file for the functioning of the project
 This is the link to my project.
-https://swaatipandey.github.io/timerfunction/
+https://swaatipandey.github.io/timerfunction/index.html
